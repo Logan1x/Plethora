@@ -1,1 +1,1 @@
-# Plethora - A place to buy everything
+# Plethora🚴 - Whole new world is waiting for you.
