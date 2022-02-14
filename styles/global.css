@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Raleway:wght@300&display=swap");
+
+@import url(./nav.css);
+@import url(./hero.css);
+
+:root {
+  --color-foreground: #111827;
+  --color-background: #fdfdfd;
+  --color-card-bg: #171717;
+  --color-card-fg: #ffffff;
+  --color-alert-bg: #ef4444;
+  --color-text: #333;
+}
+
+body {
+  line-height: 1.2;
+  background-color: var(--color-background);
+  font-family: "Raleway", sans-serif;
+  color: var(--color-text);
+}
+
+.container-main {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 100px 1fr 30px;
+  height: 100vh;
+  max-width: 63rem;
+  margin: auto;
+  grid-template-areas:
+    "header "
+    "main "
+    "footer ";
+}
+
+.btn-filled {
+  background-color: var(--color-foreground);
+  color: var(--color-background);
+  padding: 0.5rem 0.7rem;
+  border-radius: 0.3rem;
+}
+
+footer {
+  text-align: center;
+}
+
+footer a {
+  color: var(--color-text);
+  text-decoration: none;
+}
