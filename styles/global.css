@@ -38,6 +38,10 @@ body {
   font-weight: bold;
   padding: 0.7rem 1.2rem;
   background-color: var(--color-text);
+  cursor: pointer;
+}
+.btn:hover {
+  opacity: 0.85;
 }
 
 .btn-filled {
@@ -45,13 +49,24 @@ body {
   color: var(--color-background);
   padding: 0.5rem 0.7rem;
   border-radius: 0.3rem;
+  cursor: pointer;
+}
+
+.btn-filled:hover {
+  opacity: 0.85;
 }
 
 footer {
   text-align: center;
+  font-size: 1.2rem;
 }
 
 footer a {
   color: var(--color-text);
   text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+  font-weight: bold;
 }
