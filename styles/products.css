@@ -11,6 +11,10 @@
   gap: 1rem;
 }
 
+.product-title {
+  text-align: center;
+}
+
 .product-card {
   border-radius: 0.4rem;
   width: 300px;
