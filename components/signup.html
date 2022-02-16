@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/global.css" />
+    <script
+      src="https://kit.fontawesome.com/1a48924413.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Signup | Plethora</title>
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+  </head>
+  <body class="container-main">
+    <nav class="nav"></nav>
+    <main class="container-auth">
+      <div class="container-paint text-center">
+        <h1>Signup</h1>
+        <form action="" class="form-group">
+          <label for="email">Email</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            class="form-control"
+            placeholder="Enter your email"
+            required
+          />
+          <label for="password">Password</label>
+          <input
+            type="password"
+            name="password"
+            id="password"
+            class="form-control"
+            placeholder="Enter your password"
+            required
+          />
+          <div class="form-group-flex">
+            <!-- checkbox input -->
+            <input type="checkbox" name="remember" id="remember" value="1" />
+            <label for="remember">I accept all Terms & Conditions</label>
+          </div>
+          <button type="submit" class="auth-btn">Sign Up</button>
+          <div class="form-redirect">
+            <a href="./login.html">Already Have an account? Login</a>
+          </div>
+        </form>
+      </div>
+    </main>
+
+    <script src="../nav.js"></script>
+  </body>
+</html>

@@ -1,7 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Raleway:wght@300&display=swap");
 
+@import url(./reset.css);
 @import url(./nav.css);
 @import url(./hero.css);
+@import url(./auth.css);
 
 :root {
   --color-foreground: #111827;
@@ -13,10 +15,17 @@
 }
 
 body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   line-height: 1.2;
   background-color: var(--color-background);
   font-family: "Raleway", sans-serif;
   color: var(--color-text);
+}
+
+.form-control {
+  box-sizing: border-box;
 }
 
 .container-main {
@@ -30,6 +39,9 @@ body {
     "header "
     "main "
     "footer ";
+}
+.text-center {
+  text-align: center;
 }
 
 .btn {
