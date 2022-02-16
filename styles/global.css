@@ -115,16 +115,12 @@ footer a:hover {
       "main";
   }
 
-  .sidebar {
-    display: none;
-  }
-
-  .nav-search {
-    display: none;
-  }
+  .sidebar,
+  .nav-search,
   .nav-pills {
     display: none;
   }
+
   .hero-card-2 {
     flex-wrap: wrap;
   }
