@@ -1,7 +1,7 @@
 .container-products {
   grid-area: main;
   padding: 1rem;
-  background-color: #e5e7eb;
+  background-color: var(--container-bg-light-gray);
   border-radius: 0.3rem;
 }
 .product-card-parent {
@@ -16,7 +16,7 @@
   width: 300px;
   display: flex;
   flex-direction: column;
-  background-color: white;
+  background-color: var(--color-card-fg);
   position: relative;
 }
 
@@ -89,7 +89,7 @@
   width: 25px;
   height: 25px;
   position: absolute;
-  background-color: #e5e7eb;
+  background-color: var(--container-bg-light-gray);
   border-radius: 50%;
   right: 0;
   margin: 0.5rem;
