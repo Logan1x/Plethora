@@ -6,6 +6,7 @@
 @import url(./hero.css);
 @import url(./auth.css);
 @import url(./products.css);
+@import url(./cart.css);
 
 :root {
   --color-foreground: #111827;
@@ -14,7 +15,8 @@
   --color-card-fg: #ffffff;
   --color-alert-bg: #ef4444;
   --color-text: #333;
-  --container-bg-light-gray: #e5e7eb;
+  --color-bg-light-gray: #e5e7eb;
+  --color-bg-dark-gray: #d1d5db;
 }
 
 body {
@@ -52,6 +54,13 @@ body {
   grid-template-areas:
     "header header"
     "sidebar main ";
+}
+
+.container-pages {
+  grid-area: main;
+  padding: 1rem;
+  background-color: var(--color-bg-light-gray);
+  border-radius: 0.3rem;
 }
 
 .text-center {
@@ -124,6 +133,11 @@ footer a:hover {
   }
 
   .hero-card-new-arrivals img {
+    width: 100%;
+  }
+
+  .cart-img,
+  .cart-total-checkout {
     width: 100%;
   }
 }
