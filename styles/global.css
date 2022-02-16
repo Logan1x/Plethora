@@ -121,19 +121,14 @@ footer a:hover {
     display: none;
   }
 
-  .hero-card-2 {
-    flex-wrap: wrap;
-  }
+  .hero-card-2,
   .hero-card-new-arrivals {
     flex-wrap: wrap;
   }
 
-  .hero-card-new-arrivals img {
-    width: 100%;
-  }
-
   .cart-img,
-  .cart-total-checkout {
+  .cart-total-checkout,
+  .hero-card-new-arrivals img {
     width: 100%;
   }
 }
