@@ -113,22 +113,3 @@
 .card-text-bottom {
   margin-top: auto;
 }
-
-@media only screen and (max-width: 400px) {
-  .nav-search {
-    display: none;
-  }
-  .nav-pills {
-    display: none;
-  }
-  .hero-card-2 {
-    flex-wrap: wrap;
-  }
-  .hero-card-new-arrivals {
-    flex-wrap: wrap;
-  }
-
-  .hero-card-new-arrivals img {
-    width: 100%;
-  }
-}

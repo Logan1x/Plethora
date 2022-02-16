@@ -2,8 +2,10 @@
 
 @import url(./reset.css);
 @import url(./nav.css);
+@import url(./sidebar.css);
 @import url(./hero.css);
 @import url(./auth.css);
+@import url(./products.css);
 
 :root {
   --color-foreground: #111827;
@@ -33,13 +35,24 @@ body {
   grid-template-columns: 1fr;
   grid-template-rows: 100px 1fr 30px;
   height: 100vh;
-  max-width: 63rem;
-  margin: auto;
+  margin: auto 3rem;
   grid-template-areas:
     "header "
     "main "
     "footer ";
 }
+
+.container-aside-layout {
+  display: grid;
+  grid-template-columns: 230px 1fr;
+  grid-template-rows: 100px 1fr;
+  height: 100vh;
+  margin: auto;
+  grid-template-areas:
+    "header header"
+    "sidebar main ";
+}
+
 .text-center {
   text-align: center;
 }
@@ -81,4 +94,35 @@ footer a {
 footer a:hover {
   text-decoration: underline;
   font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+  .container-aside-layout {
+    grid-template-columns: 1fr;
+    grid-template-rows: 100px 1fr;
+    grid-template-areas:
+      "header"
+      "main";
+  }
+
+  .sidebar {
+    display: none;
+  }
+
+  .nav-search {
+    display: none;
+  }
+  .nav-pills {
+    display: none;
+  }
+  .hero-card-2 {
+    flex-wrap: wrap;
+  }
+  .hero-card-new-arrivals {
+    flex-wrap: wrap;
+  }
+
+  .hero-card-new-arrivals img {
+    width: 100%;
+  }
 }
