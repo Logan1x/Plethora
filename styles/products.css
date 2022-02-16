@@ -1,14 +1,12 @@
-.container-products {
-  grid-area: main;
-  padding: 1rem;
-  background-color: var(--container-bg-light-gray);
-  border-radius: 0.3rem;
-}
 .product-card-parent {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   gap: 1rem;
+}
+
+.product-title {
+  text-align: center;
 }
 
 .product-card {
@@ -72,8 +70,8 @@
 }
 
 .product-wishlist-check svg {
-  width: 25px;
-  height: 25px;
+  width: 1.5rem;
+  height: 1.5rem;
 }
 
 .product-go-to-cart button {
@@ -86,10 +84,10 @@
 }
 
 .product-wishlist {
-  width: 25px;
-  height: 25px;
+  width: 1.5rem;
+  height: 1.5rem;
   position: absolute;
-  background-color: var(--container-bg-light-gray);
+  background-color: var(--color-bg-light-gray);
   border-radius: 50%;
   right: 0;
   margin: 0.5rem;
