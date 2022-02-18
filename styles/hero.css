@@ -43,6 +43,10 @@
   color: var(--color-text);
 }
 
+.hero-title h1 {
+  margin: 1rem auto;
+}
+
 .hero-btn {
   font-size: 1.8rem;
   font-family: "Raleway", sans-serif;
@@ -52,6 +56,7 @@
   color: var(--color-background);
   padding: 0.5rem 0.7rem;
   border-radius: 0.3rem;
+  text-decoration: none;
 }
 
 .hero-card-2 {
