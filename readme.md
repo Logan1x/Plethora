@@ -17,14 +17,19 @@ This project is made out of HTML, CSS and JS. **If you love to contribute, pleas
 - CSS3
 - Javascript
 
-<div align="center">
         
         
 ## Website Preview
 
-<p align="center">Will be added soon
-<!--         <img src="https://i.imgur.com/1n98mku.png" title="Bookmarks : Homepage" alt="Bookmarks : Homepage"> -->
-</p>
+![screely-1645281248338 (1)](https://user-images.githubusercontent.com/10944610/154805724-e96520ea-3782-4bb1-bfbf-0e995a35a44e.png)
+![productpage](https://user-images.githubusercontent.com/10944610/154805760-e9ececf7-bd0c-4fef-82ea-3976348a47c5.png)
+![cart](https://user-images.githubusercontent.com/10944610/154805764-692ebbfd-ab36-4a63-bd93-edcd5265eea2.png)
+![login](https://user-images.githubusercontent.com/10944610/154805768-2cd03db3-295f-4d98-85ee-03086c550d70.png)
+![signup](https://user-images.githubusercontent.com/10944610/154805769-19364dc4-192f-44f0-b116-28a413e44739.png)
+
+
+
+
 
 ### This Project was made with help of these contributors
 
@@ -34,4 +39,3 @@ This project is made out of HTML, CSS and JS. **If you love to contribute, pleas
         </a>
 </p>
 
-</div>  
